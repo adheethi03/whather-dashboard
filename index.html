@@ -11,35 +11,24 @@
 </head>
 <body>
     <div class="container">
-
-
-            <h1></h1><i class="fa-solid fa-cloud"></i> <STRONg>WEATHER DASHBOARD</STRONg></h1>
-            <BR></BR>
+            <h1><i class="fa-solid fa-cloud"></i>WEATHER DASHBOARD</h1>
+            <br>
             <input type="text" id="name" name="name" placeholder="Enter the city">
-            <BR></BR>
+            <br>
             <button type="submit" onclick="loadData()">check Weather</button>
             <div id="spinner" class="spinner" style="display: none;"></div>
 
              <div id="weatherDisplay" class="weather-display"></div>
-             <script src="whthr.js"></script>
-    </div>
-    <BR></BR>
     <!-- result -->
-    
-     <div class="result" id="result">
-        <h3 id="city">CITY NAME:</h3>
-        <img src="https://cdn2.iconfinder.com/data/icons/weather-flat-14/64/weather02-512.png" alt="img" width="100px">
-        
-        <h5 id="temp"> <i class="fa-solid fa-sun"></i> Temperature</h5>
-        <P>--</P>
-
-        <H5 id="hum"><i class="fa-solid fa-droplet"></i> humidity</H5>
-        <p>--</p>
-        
-        <h5 id="wind"> <i class="fa-solid fa-wind"></i> Wind Speed</h5>
-        <p>--</p>
-        <h5 id="error" style="color: rgb(186, 8, 8); display: none;">Error!!!</h5>
-     </div>
+             <div class="result" id="result" style="display: none;">
+                <h3 id="city">CITY NAME:</h3>
+                <img src="https://cdn2.iconfinder.com/data/icons/weather-flat-14/64/weather02-512.png" alt="img" width="100px">
+                <h5 id="temp"> <i class="fa-solid fa-sun"></i> Temperature</h5>
+                <h5 id="hum"><i class="fa-solid fa-droplet"></i> humidity</h5>
+                <h5 id="wind"> <i class="fa-solid fa-wind"></i> Wind Speed</h5>
+                <h5 id="error" style="color: rgb(186, 8, 8);">Error!!!</h5>
+              </div>
+    </div>
      <script src="script.js"></script>
 </body>
 </html>
