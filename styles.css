@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #b9d9f6;
+    flex-direction: column;
+  }
+.container
+{
+    border: 1px solid black;
+    border-radius:1rem ;
+    width: 30rem;
+    text-align: center;
+    height: 20rem;
+    background-color: aliceblue;
+    box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.4);
+}
+button
+{
+    padding: 1rem;
+    margin: 2rem;
+    border-radius: 1rem;
+    background-color: rgb(209, 209, 242);
+}
+input
+{
+    width: 20rem;
+    height: 3rem;
+    text-align: center;
+    font-size: larger;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+button:hover {
+    background-color: #a9cfe8;
+
+  }
+  .weather-display {
+    margin-top: 20px;
+    font-size: 18px;
+
+  }
+  
+  .spinner {
+    border: 6px solid #f3f3f3;
+    border-top: 6px solid #3498db;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    margin: 20px auto;
+  }
+.result
+{
+    border:1px solid black;
+    width: 28rem;
+    height: 30rem;
+    border-radius: 1rem;
+    font-size: larger;
+    background-color: aliceblue;
+    box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.4);
+    padding-left: 2rem;
+    display: none;
+}
